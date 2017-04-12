@@ -9,6 +9,8 @@
     </RootNamespace>
     <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
     <AssemblyName>PHP</AssemblyName>
+    <SpecificPageValue>RenderJson.php</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
@@ -17,8 +19,8 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="db.php" />
     <Compile Include="index.php" />
-    <Compile Include="Script1.php" />
-    <Compile Include="Script2.php" />
+    <Compile Include="RenderJson.php" />
   </ItemGroup>
 </Project>
