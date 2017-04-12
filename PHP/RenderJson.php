@@ -1,5 +1,5 @@
 <?php
-
+phpinfo();
 include 'db.php';
 //post_status=all&post_type=nf_sub&form_id=3
 $sql = " SELECT * FROM test WHERE 1";
