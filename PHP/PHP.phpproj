@@ -19,8 +19,44 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="db.php" />
-    <Compile Include="index.php" />
+    <Compile Include="api\index.php" />
+    <Compile Include="api\Slim\Exception\Pass.php" />
+    <Compile Include="api\Slim\Exception\RequestSlash.php" />
+    <Compile Include="api\Slim\Exception\Stop.php" />
+    <Compile Include="api\Slim\Http\Cookie.php" />
+    <Compile Include="api\Slim\Http\CookieJar.php" />
+    <Compile Include="api\Slim\Http\Request.php" />
+    <Compile Include="api\Slim\Http\Response.php" />
+    <Compile Include="api\Slim\Http\Uri.php" />
+    <Compile Include="api\Slim\Log.php" />
+    <Compile Include="api\Slim\Logger.php" />
+    <Compile Include="api\Slim\Route.php" />
+    <Compile Include="api\Slim\Router.php" />
+    <Compile Include="api\Slim\Session\Flash.php" />
+    <Compile Include="api\Slim\Session\Handler.php" />
+    <Compile Include="api\Slim\Session\Handler\Cookies.php" />
+    <Compile Include="api\Slim\Slim.php" />
+    <Compile Include="api\Slim\View.php" />
+    <Compile Include="FrameWork\DataBase\db.php" />
     <Compile Include="RenderJson.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="api\" />
+    <Folder Include="api\Slim\" />
+    <Folder Include="api\Slim\Exception\" />
+    <Folder Include="api\Slim\Http\" />
+    <Folder Include="api\Slim\Session\" />
+    <Folder Include="api\Slim\Session\Handler\" />
+    <Folder Include="api\var\" />
+    <Folder Include="api\var\tmp\" />
+    <Folder Include="FrameWork\" />
+    <Folder Include="FrameWork\DataBase\" />
+    <Folder Include="Bussiness\" />
+    <Folder Include="JsModule\" />
+    <Folder Include="PhpModule\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="api\.htaccess" />
+    <Content Include="api\var\tmp\php.log" />
   </ItemGroup>
 </Project>
